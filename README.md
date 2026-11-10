@@ -32,7 +32,7 @@ You can **cycle between presets** with a single key (`q`).
 ```
 ~/.config/mpv/
 ├── scripts/
-│   └── mpv-clipper.lua
+│   └── main.lua
 └── mpv-clipper.conf  (optional)
 ```
 
