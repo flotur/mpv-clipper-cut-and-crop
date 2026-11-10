@@ -6,7 +6,7 @@
 It is **lossless by default** (using `copy` mode), but also supports quality presets (`high`, `medium`, `fast`, `tiny`) and a `custom` mode for advanced control.  
 You can **cycle between presets** with a single key (`q`).
 
-You can also crop video with encoding by 'k' → 'shift+lmb'
+You can also crop video with encoding by ('k' → 'shift+lmb').
 ---
 
 ## Installation
