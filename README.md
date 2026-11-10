@@ -25,7 +25,7 @@ You can **cycle between presets** with a single key (`q`).
 ### 2. Install the Script
 
 1. Create a `scripts/` folder inside your mpv config directory if it doesn't exist.
-2. Save `mpv-clipper.lua` into the `scripts/` folder.
+2. Save `main.lua` into the `scripts/` folder.
 3. *(Optional)* Create a `mpv-clipper.conf` file in the main mpv config directory to override settings.
 
 **Final structure:**
@@ -71,13 +71,15 @@ Other presets re-encode with different CRF, preset speed, and audio bitrates.
 
 ## Key Bindings
 
-| Key Combination | Description                                |
-|-----------------|--------------------------------------------|
-| `c`             | Set start point                            |
-| `v`             | Set end point                              |
-| `b`             | Create clip                                |
-| `q`             | Cycle quality mode                         |
-| `ctrl+i`        | Show clip info/status                      |
+| Key Combination           | Description                                |
+|---------------------------|--------------------------------------------|
+| `c`                       | Set start point                            |
+| `k`                       | Set crop mode                              |
+| `shift+left mouse button` | Select the corner of cutting video         |
+| `v`                       | Set end point                              |
+| `b`                       | Create clip                                |
+| `q`                       | Cycle quality mode                         |
+| `ctrl+i`                  | Show clip info/status                      |
 
 ---
 
@@ -175,6 +177,13 @@ quality="copy"
 
 ---
 
+# CROP examples
+```
+1. Press 'k'
+2. Press 'Shift + left mouse button' to select top left corner
+3. Press 'Shift + left mouse button' to select bottom right corner
+4. Press `c` at 00:05:10
+5. Press `c` at 00:06:20
 ## Troubleshooting
 
 ### Script Not Running?
