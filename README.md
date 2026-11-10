@@ -185,7 +185,7 @@ quality="copy"
 4. Press `c` at 00:05:10
 5. Press `c` at 00:06:20
 ## Troubleshooting
-
+```
 ### Script Not Running?
 - Ensure `mpv-clipper.lua` is in `scripts/`
 - Verify mpv is reading from correct config directory
